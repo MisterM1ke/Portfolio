@@ -117,3 +117,9 @@ header .title {
         position: absolute;
     }
 }
+
+@media (max-width: 320px) {
+    header .title {
+        font-size: 1.5rem;
+    }
+}
