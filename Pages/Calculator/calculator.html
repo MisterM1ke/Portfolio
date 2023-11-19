@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Calculator</title>
+</head>
+<body>
+    <div id="container">
+        <div id="display">
+            <div>0</div>
+        </div>
+        <div id="btnContainer">
+            <div id="leftCol">
+                <div class="row top">
+                    <button onclick="calculate(this)" value="CLR">CLR</button>
+                    <button onclick="calculate(this)" value=""></button>
+                    <button onclick="calculate(this)" value=""></button>
+                </div>
+                <div class="row">
+                    <button onclick="calculate(this)" value="7">7</button>
+                    <button onclick="calculate(this)" value="8">8</button>
+                    <button onclick="calculate(this)" value="9">9</button>
+                </div>
+                <div class="row">
+                    <button onclick="calculate(this)" value="4">4</button>
+                    <button onclick="calculate(this)" value="5">5</button>
+                    <button onclick="calculate(this)" value="6">6</button>
+                </div>
+                <div class="row">
+                    <button onclick="calculate(this)" value="1">1</button>
+                    <button onclick="calculate(this)" value="2">2</button>
+                    <button onclick="calculate(this)" value="3">3</button>
+                </div>
+                <div class="row">
+                    <button onclick="calculate(this)" value="+">+/-</button>
+                    <button onclick="calculate(this)" value="0">0</button>
+                    <button onclick="calculate(this)" value=".">.</button>
+                </div>
+            </div>
+            <div id="rightCol">
+                <div class="row">
+                    <button onclick="calculate(this)" value="/">/</button>
+                </div>
+                <div class="row">
+                    <button onclick="calculate(this)" value="*">x</button>
+                </div>
+                <div class="row">
+                    <button onclick="calculate(this)" value="-">-</button>
+                </div>
+                <div class="row">
+                    <button onclick="calculate(this)" value="+">+</button>
+                </div>
+                <div class="row" id="equals">
+                    <button onclick="calculate(this)" value="=">=</button>
+                </div>
+            </div>
+    </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

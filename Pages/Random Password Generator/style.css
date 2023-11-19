@@ -1,0 +1,131 @@
+body {
+    display: flex;
+    justify-content: center;
+    background-color: #8a8a8a;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    background-color: #232c32;
+    align-items: center;
+    width: 500px;
+    min-width: 500px;
+    max-width: 600px;
+    height: 850px;
+    box-shadow: 10px 10px;
+}
+
+#title {
+    display: flex;
+    font-size: xx-large;
+    /* margin: 20px 0 0 0; */
+    background-color: #3c4c54;
+    color: white;
+    padding: 30px;
+    align-self: stretch;
+    justify-content: center;
+}
+section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#topSection {
+    display: flex;
+    background-color: #232c32;
+    padding: 15px;
+    margin-top: 30px;
+}
+
+#topSection div{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* background-color:#232c32; */
+    width: 350px;
+    height: 25px;
+    margin: 5px 0 5px 0;
+    font-size: x-large;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+
+/* #topSection div label {
+    display: flex;
+}*/
+
+#topSection div input{
+    width: 30px;
+    height: 25px;
+    border-radius: 5px;
+    border-style: none; 
+    text-align: center; 
+    padding-left: 15px;
+}
+
+#topSection div input[type=checkbox]{
+    width: 25px;
+    height: 25px;
+}
+
+
+#lockHead {
+    display: flex;
+    background-color: #daa520;
+    /* background-color: #3c4c54; */
+    height: 130px;
+    width: 230px;
+    border-radius: 115px 115px 0 0;
+    margin-top: 40px;
+    /* border: white solid 1px; */
+}
+
+#lockBody {
+    display: flex;
+    background-color: #daa520;
+    /* background-color: #3c4c54; */
+    height: 200px;
+    width: 350px;
+    border-radius: 30px;
+    justify-content: center;
+    align-items: center;
+    /* border: white solid 1px; */
+
+}
+
+#password {
+    display: flex;
+    background-color: white;
+    height: 50px;
+    width: 310px;
+    /* color: white; */
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+    font-size: x-large;
+}
+
+#generateBtn {
+    margin: 40px;
+    width: 70px;
+    height: 70px;
+    font-size: xx-large;
+    border-radius: 35px;
+    border: none;
+    background-color: blue;
+    color: white;
+    cursor: pointer;
+}
+
+#generateBtn:hover {
+    /* background-color: white; */
+    /* rotate: 45deg; */
+    animation: spin 2s;
+}
+
+@keyframes spin {
+    100% {transform: rotate(720deg);
+        }
+}

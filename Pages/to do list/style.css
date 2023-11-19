@@ -1,0 +1,139 @@
+body{
+    display:flex;
+    flex-direction: column;
+    justify-content:center;
+    background-color: #ef767a;
+    margin: 0;
+}
+#container {
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    align-items: center;
+    background-color:#456990;
+    /* border-radius:10px; */
+    width: 100vw;
+    /* min-width: 500px;*/
+    max-width: 650px;
+    /* height: 850px; */
+    height: 100vh;
+    box-shadow: 5px 5px;;
+}
+#title{
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    background-color:#e2f0f9;
+    color: #030e12;
+    font-size: xx-large;
+    font-weight: bolder;
+    /* border-radius: 10px 10px 50% 50%; */
+    width: 100%;
+    max-height: 100px;
+}
+#titleText{
+    position: relative;
+    top: 30%;
+    height: 50px;
+}
+#input {
+    display: flex;
+    flex-direction: row;
+    flex: 1;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 0px;
+    width: 85%;
+    max-height: 50px;
+}
+#task {
+    display: flex;
+    flex: 1;
+    background-color: #030e12;
+    color: #ffffff;
+    border-radius: 25px;
+    border-style: hidden;
+    text-align: center;
+    font-size: large;
+    height: 50px;
+    position: relative;
+    margin-right: -40px;
+}
+
+label {
+    color: white;
+    margin-right: 5px;
+    font-size: x-large;
+}
+
+#addTaskButton {
+    font-size: x-large;
+    border-radius: 50%;
+    border-style: hidden;
+    height: 40px;
+    width: 40px;
+    justify-content: center;
+    position: relative;
+    right: 20px;
+}
+
+#output {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    background-color: #030e12;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    width: 90%;
+    align-content: flex-start;
+    overflow: auto;
+    overflow-x: hidden;
+}
+
+ul {
+    padding-left: 0;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+    background-color: #030e12;
+    border: #456990 solid 1px;
+    border-radius: 5px;
+    margin: 5px;
+    height: 60px;
+    align-items: center;
+    padding: 0px 10px 0px 0px;
+    font-size: large;
+    color: white;
+    align-content:space-between;
+}
+
+.row span {
+    display: flex;
+    flex: 1;
+    margin-right: 10px;
+}
+.row button {
+    border: hidden;
+    align-items: center;
+    font-size: large;
+    font-weight: bolder;
+    color: red;
+    background-color: transparent;
+    border-radius: 5%;
+    height: 25px;
+    width: 25px;
+    margin: 2.5px;
+}
+
+.row input {
+    margin: 10px;
+    width: 20px;
+    height: 20px;
+}
+.row input:checked~.strikethrough {
+    text-decoration: line-through;
+    color: gray;
+}
+

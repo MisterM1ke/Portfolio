@@ -1,0 +1,116 @@
+body {
+    display: flex;
+    justify-content: center;
+    /* background-color: #28282B; */
+    background-color: #a0d2eb;
+}
+
+#container {
+    display: flex;
+    flex-direction: column;
+    background-color: #494d5f;
+    justify-content: center;
+    align-items: center;
+    width: 400px;
+    height: 550px;
+    border-radius: 5px;
+    box-shadow: 10px 10px;
+}
+
+#display div{
+    display: flex;
+    background-color: #494d5f;
+    /* background-color: #28282B; */
+    justify-content:flex-end;
+    align-items: center;
+    font-size: xxx-large;
+    color: white;
+    width: 370px;
+    height: 140px;
+    overflow:hidden;
+    text-overflow: ellipsis;
+}
+
+#btnContainer {
+    display: flex;
+    background-color: #494d5f;
+    justify-content: center;
+    width: 400px;
+    height: 400px;
+    /* margin: 5px; */
+    /* padding: 15px; */
+}
+
+#leftCol {
+    display: flex;
+    flex:3;
+    flex-direction: column;
+    /* background-color: pink; */
+    /* margin: 1px; */
+}
+
+#rightCol {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    /* background-color: pink; */
+    /* margin: 1px; */
+}
+
+#leftCol .row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    /* align-content: stretch; */
+    /* background-color: brown; */
+    /* margin: 1px; */
+    /* padding: 5px; */
+    height: 80px;
+}
+
+#rightCol .row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    /* background-color: brown; */
+    /* margin: 1px; */
+    /* padding: 5px; */
+    height: 80px;
+}
+
+#leftCol .row button {
+    display: flex;
+    background-color: #e5eaf5;
+    margin: 3px;
+    /* padding: 10px; */
+    width: 31%;
+    /* height: 50px; */
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+    border: none;
+    font-size: x-large;
+}
+
+#leftCol .top button {
+    background-color: #d0bdf4;
+}
+
+#rightCol .row button {
+    display: flex;
+    background-color: #d0bdf4;
+    margin: 3px;
+    /* padding: 10px; */
+    width: 90%;
+    /* height: 50px; */
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+    border: none;
+    font-size: x-large;
+}
+
+#rightCol #equals button{
+    /* background-color: #8458b3; */
+    background-color: orange;
+}

@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../../style.css">
+    <link rel="stylesheet" href="style.css">
+    <title>To do list</title>
+</head>
+<body>
+    <header>
+        <p class="title">JS Mini Projects</p>
+        <span class="menu">menu</span>
+        <nav class="nav-list">
+            <ul>
+                <li><a href="../../index.html">Home</a></li>
+                <li><a href="to-do-list.html">Todo List</a></li>
+                <li><a href="../Random Password Generator/random-password-generator.html">Random Password Generator</a></li>
+                <li><a href="../Calculator/calculator.html">Calculator</a></li>
+            </ul>
+        </nav>
+    </header>
+    <div id="container">
+        <div id="title"><span id="titleText">To do list</span></div>
+        <div id="input">
+            <input id="task" type="text" placeholder="Add task" maxlength="40">
+            <button id="addTaskButton" onclick="addTask()">+</button>
+        </div>
+        <div id="output">
+            <ul id="resultList">
+                <!-- <li class="row"><input type="checkbox"><span class="strikethrough">test</span><button>X</button></li> -->
+            </ul>
+            
+        </div>
+    </div>
+    <script src="../../script.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
