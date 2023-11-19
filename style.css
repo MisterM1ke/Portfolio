@@ -76,20 +76,36 @@ header .title {
     background-color: black;
     width: 100%;
     color: white;
-    /* padding: 0 1rem; */
+    /* padding: 0 3rem; */
     /* margin-bottom: 1rem; */
     /* border-radius: 0.5rem; */
-    height: 1.5rem;
+    height: 2rem;
     align-items: center;
-    justify-content: center;
+    justify-content: flex-end;
 }
 
 @media (max-width: 600px) {
     header {
-        max-height: 7rem;
+        max-height: 8rem;
     }
     .menu {
         display:flex;
+    }
+    .menu div {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        height: 70%;
+        width: 1.5rem;
+        margin-left: 0.3rem;
+        margin-right: 1rem;
+    }
+
+    .menu div div {
+        display: flex;
+        height: 12%;
+        width: 100%;
+        background-color: white;
     }
     .nav-list{
         display: none;
