@@ -10,6 +10,8 @@ body {
 }
 
 header {
+    position:sticky;
+    top: 0;
     display: flex;
     flex: 1;
     flex-direction: column;
