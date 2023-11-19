@@ -193,11 +193,11 @@ section {
         justify-content: flex-start;
         height: 50%;
     }
-    header {
+    /* header {
         height: 6.5rem;
     }
     header .title {
         font-size: large;
         margin: 1rem;
-    }
+    } */
 }
