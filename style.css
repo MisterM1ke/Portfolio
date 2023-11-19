@@ -20,6 +20,7 @@ header {
     background-color: white;
     /* padding: 10px 0; */
     height: fit-content;
+    max-height: 10rem;
     width: 100vw;
 }
 
@@ -84,6 +85,9 @@ header .title {
 }
 
 @media (max-width: 600px) {
+    header {
+        max-height: 7rem;
+    }
     .menu {
         display:flex;
     }

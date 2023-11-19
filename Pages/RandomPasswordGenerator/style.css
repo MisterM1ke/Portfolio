@@ -1,7 +1,7 @@
 body {
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    /* justify-content: center; */
     background-color: #8a8a8a;
     margin: 0;
 }
@@ -12,11 +12,11 @@ body {
     background-color: #232c32;
     align-items: center;
     align-self: center;
-    align-items: center;
+    /* align-items: center; */
     width: 100vw;
     max-width: 500px;
     height: 100vh;
-    /* max-height: 600px; */
+    max-height: 700px;
     box-shadow: 10px 10px;
 }
 
@@ -98,7 +98,7 @@ section {
     border-right: #131c22 solid 30px;
     border-left: #131c22 solid 30px;
     height: 40%;
-    max-height: 10rem;
+    max-height: 8rem;
     width: 40%;
     min-width: none;
     max-width: 7rem;
@@ -135,7 +135,7 @@ section {
 }
 
 #generateBtn {
-    margin: 0.5rem;
+    margin: 1rem;
     width: 4rem;
     height: 4rem;
     font-size: xx-large;
