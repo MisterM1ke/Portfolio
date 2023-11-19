@@ -3,7 +3,7 @@
   "routes": [
     {
       "route": "/Pages/to do list",
-      "serve": "/index.html"
+      "serve": "/Pages/to do list/index.html"
     }
   ]
 }
