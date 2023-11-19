@@ -1,7 +1,9 @@
 body {
     display: flex;
+    flex-direction: column;
     justify-content: center;
     background-color: #8a8a8a;
+    margin: 0;
 }
 
 .container {
@@ -9,16 +11,18 @@ body {
     flex-direction: column;
     background-color: #232c32;
     align-items: center;
-    width: 500px;
-    min-width: 500px;
-    max-width: 600px;
-    height: 850px;
+    align-self: center;
+    align-items: center;
+    width: 100vw;
+    max-width: 400px;
+    height: 100vh;
+    /* max-height: 600px; */
     box-shadow: 10px 10px;
 }
 
 #title {
     display: flex;
-    font-size: xx-large;
+    font-size: large;
     /* margin: 20px 0 0 0; */
     background-color: #3c4c54;
     color: white;
@@ -34,9 +38,10 @@ section {
 
 #topSection {
     display: flex;
+    width: 90%;
     background-color: #232c32;
-    padding: 15px;
-    margin-top: 30px;
+    /* padding: 15px; */
+    margin-top: 1rem;
 }
 
 #topSection div{
@@ -44,10 +49,10 @@ section {
     justify-content: space-between;
     align-items: center;
     /* background-color:#232c32; */
-    width: 350px;
-    height: 25px;
+    width: 100%;
+    /* height: 25px; */
     margin: 5px 0 5px 0;
-    font-size: x-large;
+    font-size: large;
     font-family: Arial, Helvetica, sans-serif;
     color: white;
 }
@@ -57,8 +62,8 @@ section {
 }*/
 
 #topSection div input{
-    width: 30px;
-    height: 25px;
+    /* width: 30px;
+    height: 25px; */
     border-radius: 5px;
     border-style: none; 
     text-align: center; 
@@ -66,32 +71,32 @@ section {
 }
 
 #topSection div input[type=checkbox]{
-    width: 25px;
-    height: 25px;
+    width: 1rem;
+    height: 1rem;
 }
 
+#middleSection {
+    width: 100%;
+    height: 100%;
+}
 
-#lockHead {
+/* #lockHead {
     display: flex;
     background-color: #daa520;
-    /* background-color: #3c4c54; */
-    height: 130px;
-    width: 230px;
-    border-radius: 115px 115px 0 0;
-    margin-top: 40px;
-    /* border: white solid 1px; */
-}
+    height: 8rem;
+    width: 45%;
+    border-radius: 8rem 8rem 0 0;
+} */
 
 #lockBody {
     display: flex;
     background-color: #daa520;
-    /* background-color: #3c4c54; */
-    height: 200px;
-    width: 350px;
+    margin-top: 2rem;
+    height: 5rem;
+    width: 80%;
     border-radius: 30px;
     justify-content: center;
     align-items: center;
-    /* border: white solid 1px; */
 
 }
 
@@ -99,7 +104,7 @@ section {
     display: flex;
     background-color: white;
     height: 50px;
-    width: 310px;
+    width: 80%;
     /* color: white; */
     align-items: center;
     justify-content: center;
@@ -108,9 +113,9 @@ section {
 }
 
 #generateBtn {
-    margin: 40px;
-    width: 70px;
-    height: 70px;
+    margin: 2rem;
+    width: 4rem;
+    height: 4rem;
     font-size: xx-large;
     border-radius: 35px;
     border: none;
