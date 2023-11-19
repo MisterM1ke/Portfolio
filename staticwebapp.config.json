@@ -2,7 +2,8 @@
   "trailingSlash": "auto",
   "routes": [
     {
-      "route": "/Pages/to do list"
+      "route": "/Pages/to do list",
+      "serve": "/index.html"
     }
   ]
 }
