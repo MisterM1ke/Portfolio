@@ -1,8 +1,11 @@
 body {
     display: flex;
+    flex-direction: column;
     justify-content: center;
+    align-items: center;
     /* background-color: #28282B; */
     background-color: #a0d2eb;
+    margin: 0;
 }
 
 #container {
@@ -11,8 +14,10 @@ body {
     background-color: #494d5f;
     justify-content: center;
     align-items: center;
-    width: 400px;
-    height: 550px;
+    /* width: 400px; */
+    width: 100vw;
+    /* height: 550px; */
+    height: 100svh;
     border-radius: 5px;
     box-shadow: 10px 10px;
 }
