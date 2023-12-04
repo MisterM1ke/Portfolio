@@ -1,3 +1,4 @@
+const secretKey = config.SECRET_KEY;
 let now;
 let timeIntervalInMinutes = 0;
 let typingArea = document.getElementById("typingArea");
@@ -19,7 +20,7 @@ async function getJoke() {
         method: 'GET',
         headers: {
             accept: 'application/json',
-            'X-RapidAPI-Key': '97d08b7d10msh6938d5fb551a26ap198379jsne1be3cd7a6e2',
+            'X-RapidAPI-Key': secretKey,
             'X-RapidAPI-Host': 'matchilling-chuck-norris-jokes-v1.p.rapidapi.com'
         }
     };
