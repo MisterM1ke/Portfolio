@@ -5,14 +5,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../../style.css">
     <link rel="stylesheet" href="style.css">
-    <title>To do list</title>
+    <title>Typing Speed test</title>
 </head>
 <body>
     <header>
         <nav class="nav-list">
             <ul>
                 <li><a href="../../index.html">Home</a></li>
-                <li><a href="todolist.html">Todo List</a></li>
+                <li><a href="../Todolist/todolist.html">Todo List</a></li>
                 <li><a href="../RandomPasswordGenerator/random-password-generator.html">Random Password Generator</a></li>
                 <li><a href="../Calculator/calculator.html">Calculator</a></li>
                 <li><a href="../TypingSpeedTest/TypingTest.html">Typing Test</a></li>
@@ -24,21 +24,15 @@
                 <div></div>
                 <div></div>
             </div>
-        </span>
+            </span>
         <p class="title">JS Mini Projects</p>
     </header>
-    <div id="container">
-        <div id="title">To do list</div>
-        <div id="input">
-            <input id="task" type="text" placeholder="Add task" maxlength="40">
-            <button id="addTaskButton" onclick="addTask()">+</button>
-        </div>
-        <div id="output">
-            <ul id="resultList">
-                <!-- <li class="row"><input type="checkbox"><span class="strikethrough">test</span><button>X</button></li> -->
-            </ul>
-            
-        </div>
+    <div class="container">
+        <div id="joke">Click start and begin typing the Chuck Norris joke</div>
+        <div contenteditable="true" id="typingArea" oninput="doSomething(this)"></div>
+        <button onclick="start()">Start</button>
+        <div id="info"><span id="wpm">0</span><span>&nbsp;wpm</span></div>
+        <div>Click the Start button to begin the test.<br>Start typing as soon as a random Chuck Norris joke appears.</div>
     </div>
     <script src="../../script.js"></script>
     <script src="script.js"></script>
