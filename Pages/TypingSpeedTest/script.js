@@ -1,4 +1,4 @@
-const secretKey = config.SECRET_KEY;
+// const secretKey = config.SECRET_KEY;
 // const secretKey = env.APIKEY;
 const jokesArray = ["Chuck Norris once glared at someone and the guys heart jump out of his chest out of fear. it didn't get far before Chuck Norris grabbed it and ate it. the only thing scarier than Chuck Norris glaring at you is him smiling while in the middle of a round house kick",
                     "Contrary to popular belief, there are actually 5 classical elements: Earth, Air, Fire, Water, and Chuck Norris.",
